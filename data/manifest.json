@@ -1,6 +1,8 @@
 {
   "frozen_before_benchmark": true,
   "sha256": {
+    "data/corpus/chunks.jsonl.gz": "0887166d80730965bc791325aeebb62af0a2375311e5aa6ebc94717f3a5a51ff",
+    "data/corpus/documents.json": "91ab4eaed976f0d6296ba2bd216d5e48905e42d3f92862b2998d5c349d8fe566",
     "data/provenance.json": "cb6d9d654082dc87a830911dd014ebaf88cc6466aa862f4417dadef95e20d51f",
     "data/questions/questions.json": "4dedd06bf44045699f60d94ba35656768ed8beba429128ac066da4efa3dd34e7",
     "data/sec_facts.jsonl": "ab25def9359c7fe3ea128a014676e8e68f13f91762d77be804603295e52a4d4f"

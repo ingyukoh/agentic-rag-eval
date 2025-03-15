@@ -1,0 +1,134 @@
+[
+  {
+    "doc_id": "aapl-2022",
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "fiscal_year": 2022,
+    "accession": "0000320193-22-000108",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+    "sha256": "802ab361eba5dc5352d48d1c0b7c40127bbafc6f32c51cbc23db7482b2c81ad5",
+    "raw_bytes": 2049971,
+    "text_chars": 233235
+  },
+  {
+    "doc_id": "aapl-2023",
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "fiscal_year": 2023,
+    "accession": "0000320193-23-000106",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+    "sha256": "d3216d8beb57417e07542786480fd366691fb356af0c13d4012cea536598f5d0",
+    "raw_bytes": 1559038,
+    "text_chars": 216635
+  },
+  {
+    "doc_id": "aapl-2024",
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "fiscal_year": 2024,
+    "accession": "0000320193-24-000123",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+    "sha256": "fe2a540e63f9ed15e01f8ac2d208505c137492ac7e4a67abf677d3a382551b51",
+    "raw_bytes": 1503894,
+    "text_chars": 218587
+  },
+  {
+    "doc_id": "aapl-2025",
+    "ticker": "AAPL",
+    "cik": "0000320193",
+    "fiscal_year": 2025,
+    "accession": "0000320193-25-000079",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "sha256": "37aefffd496784c51157131a910702ff2f8c0da29fccb4100a58db2d04a5332d",
+    "raw_bytes": 1520322,
+    "text_chars": 220566
+  },
+  {
+    "doc_id": "googl-2022",
+    "ticker": "GOOGL",
+    "cik": "0001652044",
+    "fiscal_year": 2022,
+    "accession": "0001652044-23-000016",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm",
+    "sha256": "40530493b42e3e37eb37ca4dc37b6e677d7cb1e5986bac92c34194eda9f1c9e2",
+    "raw_bytes": 3038527,
+    "text_chars": 349508
+  },
+  {
+    "doc_id": "googl-2023",
+    "ticker": "GOOGL",
+    "cik": "0001652044",
+    "fiscal_year": 2023,
+    "accession": "0001652044-24-000022",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm",
+    "sha256": "5b7d92ff85d6cb8ff5c700054fd7e15fe4cae063c162cfed782ed14358dba286",
+    "raw_bytes": 2410517,
+    "text_chars": 371157
+  },
+  {
+    "doc_id": "googl-2024",
+    "ticker": "GOOGL",
+    "cik": "0001652044",
+    "fiscal_year": 2024,
+    "accession": "0001652044-25-000014",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+    "sha256": "2aa1d381e157c89f4755392f61da7b81a9bfd7c94174838a09f9f07ed12aff68",
+    "raw_bytes": 2528458,
+    "text_chars": 381619
+  },
+  {
+    "doc_id": "googl-2025",
+    "ticker": "GOOGL",
+    "cik": "0001652044",
+    "fiscal_year": 2025,
+    "accession": "0001652044-26-000018",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "sha256": "2230b33e52476b65744584604a5888a63ad1528926ba3a337310d940fd45cad8",
+    "raw_bytes": 2616613,
+    "text_chars": 384058
+  },
+  {
+    "doc_id": "msft-2022",
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "fiscal_year": 2022,
+    "accession": "0001564590-22-026876",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm",
+    "sha256": "4427132d11e361459628649eb8679d86e8e7aef2ff3257faffb257d07856adf8",
+    "raw_bytes": 6215969,
+    "text_chars": 378962
+  },
+  {
+    "doc_id": "msft-2023",
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "fiscal_year": 2023,
+    "accession": "0000950170-23-035122",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+    "sha256": "3d2f185abaa08cf86c200f8cd2a8a4493a3fe70f6388eb1f17c37535d0e9c0a7",
+    "raw_bytes": 9963705,
+    "text_chars": 373689
+  },
+  {
+    "doc_id": "msft-2024",
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "fiscal_year": 2024,
+    "accession": "0000950170-24-087843",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "sha256": "92b801db1d51c1d25e6f6dfbfb30cb52a7080f5ea5e8859e5cb80b64cc37cfa1",
+    "raw_bytes": 6861025,
+    "text_chars": 390416
+  },
+  {
+    "doc_id": "msft-2025",
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "fiscal_year": 2025,
+    "accession": "0000950170-25-100235",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+    "sha256": "d3b869ab9a270603f34fae8262dab071a6cdc06d1d2ba1cc2fe864740f0e3a10",
+    "raw_bytes": 8158181,
+    "text_chars": 347391
+  }
+]
