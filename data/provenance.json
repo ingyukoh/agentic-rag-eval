@@ -1,0 +1,19 @@
+{
+  "api": "https://data.sec.gov/api/xbrl/companyfacts/",
+  "companies": {
+    "AAPL": {
+      "cik": "0000320193",
+      "download_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+    },
+    "GOOGL": {
+      "cik": "0001652044",
+      "download_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    "MSFT": {
+      "cik": "0000789019",
+      "download_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+    }
+  },
+  "source": "SEC EDGAR Company Facts API",
+  "user_agent": "Ingyu Koh ingyukoh2@gmail.com"
+}

@@ -14,3 +14,4 @@ htmlcov/
 data/corpus/raw/
 results/*.json
 !results/.gitkeep
+!results/benchmark.json

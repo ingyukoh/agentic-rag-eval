@@ -1,61 +1,42 @@
-"""Tests for the eval-set freezing mechanism."""
-
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 
 import pytest
 
-from agentic_rag_eval.eval.dataset import (
-    Question,
-    content_hash,
-    load_questions,
-    verify_manifest,
-)
+from agentic_rag_eval.sec import load_facts, verify_manifest
 
-QUESTIONS = Path(__file__).parent.parent / "data" / "questions" / "questions.json"
-MANIFEST = Path(__file__).parent.parent / "data" / "questions" / "manifest.sha256"
+ROOT = Path(__file__).resolve().parents[1]
 
 
-def _q(qid: str, answer: str | None = "1.0") -> Question:
-    return Question(id=qid, question=f"value for {qid}?", answer=answer)
+def test_frozen_files_match_manifest() -> None:
+    verify_manifest(ROOT)
 
 
-def test_hash_is_stable_under_reordering():
-    assert content_hash([_q("a"), _q("b")]) == content_hash([_q("b"), _q("a")])
+def test_corpus_has_real_sec_provenance() -> None:
+    facts = load_facts(ROOT / "data" / "sec_facts.jsonl")
+    assert len(facts) >= 50
+    assert {fact.ticker for fact in facts} == {"AAPL", "MSFT", "GOOGL"}
+    assert all(fact.accession and "sec.gov/Archives/edgar" in fact.source_url for fact in facts)
 
 
-def test_hash_changes_when_ground_truth_changes():
-    assert content_hash([_q("a", "1.0")]) != content_hash([_q("a", "2.0")])
-
-
-def test_unanswerable_questions_are_distinct_from_empty_answers():
-    assert content_hash([_q("a", None)]) != content_hash([_q("a", "")])
-
-
-def test_duplicate_ids_are_rejected(tmp_path):
-    path = tmp_path / "questions.json"
-    path.write_text(
-        json.dumps([{"id": "x", "question": "?"}, {"id": "x", "question": "?"}]),
-        encoding="utf-8",
-    )
-    with pytest.raises(ValueError, match="duplicate question id"):
-        load_questions(path)
-
-
-def test_committed_eval_set_matches_its_manifest():
-    """The frozen set must never drift from its committed hash."""
-    assert verify_manifest(QUESTIONS, MANIFEST)
-
-
-def test_tampering_with_the_eval_set_is_detected(tmp_path):
-    questions = tmp_path / "questions.json"
-    manifest = tmp_path / "manifest.sha256"
-    questions.write_text(json.dumps([{"id": "a", "question": "?", "answer": "1.0"}]), "utf-8")
-    manifest.write_text(content_hash(load_questions(questions)), "utf-8")
-    assert verify_manifest(questions, manifest)
-
-    questions.write_text(json.dumps([{"id": "a", "question": "?", "answer": "9.9"}]), "utf-8")
-    with pytest.raises(ValueError, match="has changed since its manifest"):
-        verify_manifest(questions, manifest)
+def test_tampering_is_detected(tmp_path: Path) -> None:
+    data = tmp_path / "data"
+    questions = data / "questions"
+    questions.mkdir(parents=True)
+    (data / "sec_facts.jsonl").write_text("{}\n")
+    (data / "provenance.json").write_text("{}\n")
+    (questions / "questions.json").write_text("[]\n")
+    files = ["data/sec_facts.jsonl", "data/provenance.json", "data/questions/questions.json"]
+    manifest = {
+        "sha256": {
+            name: hashlib.sha256((tmp_path / name).read_bytes()).hexdigest() for name in files
+        }
+    }
+    (data / "manifest.json").write_text(json.dumps(manifest))
+    verify_manifest(tmp_path)
+    (questions / "questions.json").write_text("[{}]\n")
+    with pytest.raises(RuntimeError, match="Frozen evidence changed"):
+        verify_manifest(tmp_path)

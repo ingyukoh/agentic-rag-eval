@@ -1,21 +1,19 @@
-# Failure analysis
+# Failure methodology
 
-*Populated from Phase 6. Entries are produced by the evaluation harness, not written by
-hand — each category below will carry a count, representative question IDs, and the trace
-that produced the error.*
+The generated, case-level report is [`results/failures.md`](results/failures.md). It lists
+every benchmark loss with the system, case ID, predicted value, and reason. Agent failures
+must appear with the same prominence as baseline failures.
 
-The taxonomy the harness classifies into:
+The current frozen set exposes these categories:
 
-| Category | Description |
+| Category | Detection |
 |---|---|
-| `retrieval-miss` | The span containing the answer was never retrieved. |
-| `wrong-column` | Correct table retrieved; value read from the wrong fiscal year. |
-| `scale-error` | Correct value, wrong magnitude (thousands vs. millions). |
-| `label-ambiguity` | "Revenue" vs. "net sales" vs. "total revenues" resolved to the wrong line item. |
-| `over-abstention` | Answerable question refused — the cost of the abstention policy. |
-| `hallucinated-citation` | Answer cites a span that does not support it. |
-| `budget-exhausted` | Retry budget consumed without reaching a verified answer. |
+| wrong fiscal year | value or citation differs while issuer and metric match |
+| unsupported question guessed | expected abstention but the system returns a fact |
+| over-abstention | answerable case returns no value |
+| provenance failure | value is present but accession, source URL, or period is missing |
+| label ambiguity | planned metric does not identify one exact SEC concept/fact |
 
-Cases where the agentic system scores **worse** than the baseline are reported here with
-the same prominence as the wins. The retry loop is not free: it costs latency and tokens,
-and `over-abstention` is the category where it can actively lose.
+The agent has no failures in the current narrow 64-case set. That is explicitly **not** a
+claim of production reliability; the README lists the missing comparison, ratio, broad
+paraphrase, full-table, and issuer-scale tests.

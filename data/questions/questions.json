@@ -1,1 +1,514 @@
-[]
+[
+  {
+    "id": "aapl-2022-assets",
+    "query": "What were total assets for AAPL at fiscal year-end 2022?",
+    "answerable": true,
+    "expected_value": 352755000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2022-assets"
+  },
+  {
+    "id": "aapl-2022-cash",
+    "query": "Give Apple Inc. cash and cash equivalents for fiscal 2022.",
+    "answerable": true,
+    "expected_value": 23646000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2022-cash"
+  },
+  {
+    "id": "aapl-2022-net-income",
+    "query": "Report AAPL net income for fiscal 2022.",
+    "answerable": true,
+    "expected_value": 99803000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2022-net-income"
+  },
+  {
+    "id": "aapl-2022-operating-income",
+    "query": "How much operating income did Apple Inc. record in FY 2022?",
+    "answerable": true,
+    "expected_value": 119437000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2022-operating-income"
+  },
+  {
+    "id": "aapl-2022-revenue",
+    "query": "What was Apple Inc.'s revenue in fiscal year 2022?",
+    "answerable": true,
+    "expected_value": 394328000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2022-revenue"
+  },
+  {
+    "id": "aapl-2023-assets",
+    "query": "What were total assets for AAPL at fiscal year-end 2023?",
+    "answerable": true,
+    "expected_value": 352583000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2023-assets"
+  },
+  {
+    "id": "aapl-2023-cash",
+    "query": "Give Apple Inc. cash and cash equivalents for fiscal 2023.",
+    "answerable": true,
+    "expected_value": 29965000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2023-cash"
+  },
+  {
+    "id": "aapl-2023-net-income",
+    "query": "Report AAPL net income for fiscal 2023.",
+    "answerable": true,
+    "expected_value": 96995000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2023-net-income"
+  },
+  {
+    "id": "aapl-2023-operating-income",
+    "query": "How much operating income did Apple Inc. record in FY 2023?",
+    "answerable": true,
+    "expected_value": 114301000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2023-operating-income"
+  },
+  {
+    "id": "aapl-2023-revenue",
+    "query": "What was Apple Inc.'s revenue in fiscal year 2023?",
+    "answerable": true,
+    "expected_value": 383285000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2023-revenue"
+  },
+  {
+    "id": "aapl-2024-assets",
+    "query": "What were total assets for AAPL at fiscal year-end 2024?",
+    "answerable": true,
+    "expected_value": 364980000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2024-assets"
+  },
+  {
+    "id": "aapl-2024-cash",
+    "query": "Give Apple Inc. cash and cash equivalents for fiscal 2024.",
+    "answerable": true,
+    "expected_value": 29943000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2024-cash"
+  },
+  {
+    "id": "aapl-2024-net-income",
+    "query": "Report AAPL net income for fiscal 2024.",
+    "answerable": true,
+    "expected_value": 93736000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2024-net-income"
+  },
+  {
+    "id": "aapl-2024-operating-income",
+    "query": "How much operating income did Apple Inc. record in FY 2024?",
+    "answerable": true,
+    "expected_value": 123216000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2024-operating-income"
+  },
+  {
+    "id": "aapl-2024-revenue",
+    "query": "What was Apple Inc.'s revenue in fiscal year 2024?",
+    "answerable": true,
+    "expected_value": 391035000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2024-revenue"
+  },
+  {
+    "id": "aapl-2025-assets",
+    "query": "What were total assets for AAPL at fiscal year-end 2025?",
+    "answerable": true,
+    "expected_value": 359241000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2025-assets"
+  },
+  {
+    "id": "aapl-2025-cash",
+    "query": "Give Apple Inc. cash and cash equivalents for fiscal 2025.",
+    "answerable": true,
+    "expected_value": 35934000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2025-cash"
+  },
+  {
+    "id": "aapl-2025-net-income",
+    "query": "Report AAPL net income for fiscal 2025.",
+    "answerable": true,
+    "expected_value": 112010000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2025-net-income"
+  },
+  {
+    "id": "aapl-2025-operating-income",
+    "query": "How much operating income did Apple Inc. record in FY 2025?",
+    "answerable": true,
+    "expected_value": 133050000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2025-operating-income"
+  },
+  {
+    "id": "aapl-2025-revenue",
+    "query": "What was Apple Inc.'s revenue in fiscal year 2025?",
+    "answerable": true,
+    "expected_value": 416161000000,
+    "expected_unit": "USD",
+    "expected_citation": "aapl-2025-revenue"
+  },
+  {
+    "id": "googl-2022-assets",
+    "query": "What were total assets for GOOGL at fiscal year-end 2022?",
+    "answerable": true,
+    "expected_value": 365264000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2022-assets"
+  },
+  {
+    "id": "googl-2022-cash",
+    "query": "Give Alphabet Inc. cash and cash equivalents for fiscal 2022.",
+    "answerable": true,
+    "expected_value": 21879000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2022-cash"
+  },
+  {
+    "id": "googl-2022-net-income",
+    "query": "Report GOOGL net income for fiscal 2022.",
+    "answerable": true,
+    "expected_value": 59972000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2022-net-income"
+  },
+  {
+    "id": "googl-2022-operating-income",
+    "query": "How much operating income did Alphabet Inc. record in FY 2022?",
+    "answerable": true,
+    "expected_value": 74842000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2022-operating-income"
+  },
+  {
+    "id": "googl-2022-revenue",
+    "query": "What was Alphabet Inc.'s revenue in fiscal year 2022?",
+    "answerable": true,
+    "expected_value": 282836000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2022-revenue"
+  },
+  {
+    "id": "googl-2023-assets",
+    "query": "What were total assets for GOOGL at fiscal year-end 2023?",
+    "answerable": true,
+    "expected_value": 402392000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2023-assets"
+  },
+  {
+    "id": "googl-2023-cash",
+    "query": "Give Alphabet Inc. cash and cash equivalents for fiscal 2023.",
+    "answerable": true,
+    "expected_value": 24048000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2023-cash"
+  },
+  {
+    "id": "googl-2023-net-income",
+    "query": "Report GOOGL net income for fiscal 2023.",
+    "answerable": true,
+    "expected_value": 73795000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2023-net-income"
+  },
+  {
+    "id": "googl-2023-operating-income",
+    "query": "How much operating income did Alphabet Inc. record in FY 2023?",
+    "answerable": true,
+    "expected_value": 84293000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2023-operating-income"
+  },
+  {
+    "id": "googl-2023-revenue",
+    "query": "What was Alphabet Inc.'s revenue in fiscal year 2023?",
+    "answerable": true,
+    "expected_value": 307394000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2023-revenue"
+  },
+  {
+    "id": "googl-2024-assets",
+    "query": "What were total assets for GOOGL at fiscal year-end 2024?",
+    "answerable": true,
+    "expected_value": 450256000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2024-assets"
+  },
+  {
+    "id": "googl-2024-cash",
+    "query": "Give Alphabet Inc. cash and cash equivalents for fiscal 2024.",
+    "answerable": true,
+    "expected_value": 23466000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2024-cash"
+  },
+  {
+    "id": "googl-2024-net-income",
+    "query": "Report GOOGL net income for fiscal 2024.",
+    "answerable": true,
+    "expected_value": 100118000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2024-net-income"
+  },
+  {
+    "id": "googl-2024-operating-income",
+    "query": "How much operating income did Alphabet Inc. record in FY 2024?",
+    "answerable": true,
+    "expected_value": 112390000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2024-operating-income"
+  },
+  {
+    "id": "googl-2024-revenue",
+    "query": "What was Alphabet Inc.'s revenue in fiscal year 2024?",
+    "answerable": true,
+    "expected_value": 350018000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2024-revenue"
+  },
+  {
+    "id": "googl-2025-assets",
+    "query": "What were total assets for GOOGL at fiscal year-end 2025?",
+    "answerable": true,
+    "expected_value": 595281000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2025-assets"
+  },
+  {
+    "id": "googl-2025-cash",
+    "query": "Give Alphabet Inc. cash and cash equivalents for fiscal 2025.",
+    "answerable": true,
+    "expected_value": 30708000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2025-cash"
+  },
+  {
+    "id": "googl-2025-net-income",
+    "query": "Report GOOGL net income for fiscal 2025.",
+    "answerable": true,
+    "expected_value": 132170000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2025-net-income"
+  },
+  {
+    "id": "googl-2025-operating-income",
+    "query": "How much operating income did Alphabet Inc. record in FY 2025?",
+    "answerable": true,
+    "expected_value": 129039000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2025-operating-income"
+  },
+  {
+    "id": "googl-2025-revenue",
+    "query": "What was Alphabet Inc.'s revenue in fiscal year 2025?",
+    "answerable": true,
+    "expected_value": 402836000000,
+    "expected_unit": "USD",
+    "expected_citation": "googl-2025-revenue"
+  },
+  {
+    "id": "msft-2022-assets",
+    "query": "What were total assets for MSFT at fiscal year-end 2022?",
+    "answerable": true,
+    "expected_value": 364840000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2022-assets"
+  },
+  {
+    "id": "msft-2022-cash",
+    "query": "Give Microsoft Corporation cash and cash equivalents for fiscal 2022.",
+    "answerable": true,
+    "expected_value": 13931000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2022-cash"
+  },
+  {
+    "id": "msft-2022-net-income",
+    "query": "Report MSFT net income for fiscal 2022.",
+    "answerable": true,
+    "expected_value": 72738000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2022-net-income"
+  },
+  {
+    "id": "msft-2022-operating-income",
+    "query": "How much operating income did Microsoft Corporation record in FY 2022?",
+    "answerable": true,
+    "expected_value": 83383000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2022-operating-income"
+  },
+  {
+    "id": "msft-2022-revenue",
+    "query": "What was Microsoft Corporation's revenue in fiscal year 2022?",
+    "answerable": true,
+    "expected_value": 198270000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2022-revenue"
+  },
+  {
+    "id": "msft-2023-assets",
+    "query": "What were total assets for MSFT at fiscal year-end 2023?",
+    "answerable": true,
+    "expected_value": 411976000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2023-assets"
+  },
+  {
+    "id": "msft-2023-cash",
+    "query": "Give Microsoft Corporation cash and cash equivalents for fiscal 2023.",
+    "answerable": true,
+    "expected_value": 34704000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2023-cash"
+  },
+  {
+    "id": "msft-2023-net-income",
+    "query": "Report MSFT net income for fiscal 2023.",
+    "answerable": true,
+    "expected_value": 72361000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2023-net-income"
+  },
+  {
+    "id": "msft-2023-operating-income",
+    "query": "How much operating income did Microsoft Corporation record in FY 2023?",
+    "answerable": true,
+    "expected_value": 88523000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2023-operating-income"
+  },
+  {
+    "id": "msft-2023-revenue",
+    "query": "What was Microsoft Corporation's revenue in fiscal year 2023?",
+    "answerable": true,
+    "expected_value": 211915000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2023-revenue"
+  },
+  {
+    "id": "msft-2024-assets",
+    "query": "What were total assets for MSFT at fiscal year-end 2024?",
+    "answerable": true,
+    "expected_value": 512163000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2024-assets"
+  },
+  {
+    "id": "msft-2024-cash",
+    "query": "Give Microsoft Corporation cash and cash equivalents for fiscal 2024.",
+    "answerable": true,
+    "expected_value": 18315000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2024-cash"
+  },
+  {
+    "id": "msft-2024-net-income",
+    "query": "Report MSFT net income for fiscal 2024.",
+    "answerable": true,
+    "expected_value": 88136000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2024-net-income"
+  },
+  {
+    "id": "msft-2024-operating-income",
+    "query": "How much operating income did Microsoft Corporation record in FY 2024?",
+    "answerable": true,
+    "expected_value": 109433000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2024-operating-income"
+  },
+  {
+    "id": "msft-2024-revenue",
+    "query": "What was Microsoft Corporation's revenue in fiscal year 2024?",
+    "answerable": true,
+    "expected_value": 245122000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2024-revenue"
+  },
+  {
+    "id": "msft-2025-assets",
+    "query": "What were total assets for MSFT at fiscal year-end 2025?",
+    "answerable": true,
+    "expected_value": 619003000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2025-assets"
+  },
+  {
+    "id": "msft-2025-cash",
+    "query": "Give Microsoft Corporation cash and cash equivalents for fiscal 2025.",
+    "answerable": true,
+    "expected_value": 30242000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2025-cash"
+  },
+  {
+    "id": "msft-2025-net-income",
+    "query": "Report MSFT net income for fiscal 2025.",
+    "answerable": true,
+    "expected_value": 101832000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2025-net-income"
+  },
+  {
+    "id": "msft-2025-operating-income",
+    "query": "How much operating income did Microsoft Corporation record in FY 2025?",
+    "answerable": true,
+    "expected_value": 128528000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2025-operating-income"
+  },
+  {
+    "id": "msft-2025-revenue",
+    "query": "What was Microsoft Corporation's revenue in fiscal year 2025?",
+    "answerable": true,
+    "expected_value": 281724000000,
+    "expected_unit": "USD",
+    "expected_citation": "msft-2025-revenue"
+  },
+  {
+    "id": "unanswerable-unknown-company",
+    "query": "What was Tesla revenue in fiscal year 2024?",
+    "answerable": false,
+    "expected_value": null,
+    "expected_unit": null,
+    "expected_citation": null
+  },
+  {
+    "id": "unanswerable-missing-year",
+    "query": "What was Apple revenue?",
+    "answerable": false,
+    "expected_value": null,
+    "expected_unit": null,
+    "expected_citation": null
+  },
+  {
+    "id": "unanswerable-outside-window",
+    "query": "Report MSFT net income for fiscal 2035.",
+    "answerable": false,
+    "expected_value": null,
+    "expected_unit": null,
+    "expected_citation": null
+  },
+  {
+    "id": "unanswerable-unsupported-metric",
+    "query": "What was Alphabet customer churn in fiscal 2024?",
+    "answerable": false,
+    "expected_value": null,
+    "expected_unit": null,
+    "expected_citation": null
+  }
+]

@@ -1,0 +1,1306 @@
+{
+  "baseline": {
+    "name": "single_pass_bm25",
+    "cases": 64,
+    "task_success": 0.65625,
+    "answerability_accuracy": 0.9375,
+    "value_accuracy": 0.65625,
+    "citation_accuracy": 0.65625,
+    "p50_latency_ms": 0.05566699999803859,
+    "p95_latency_ms": 0.06633400000310985,
+    "rows": [
+      {
+        "id": "aapl-2022-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.07562500000091177,
+        "predicted_value": 352755000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2022-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.062374999998837666,
+        "predicted_value": 23646000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2022-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05308400000103575,
+        "predicted_value": 99803000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2022-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.058917000004043985,
+        "predicted_value": 119437000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2022-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06433299999741848,
+        "predicted_value": 394328000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2023-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.055541999998354186,
+        "predicted_value": 352583000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2023-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.06354199999947241,
+        "predicted_value": 23646000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2023-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05099999999913507,
+        "predicted_value": 99803000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2023-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05741700000072569,
+        "predicted_value": 114301000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2023-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06145900000120719,
+        "predicted_value": 383285000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2024-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.054458999997564206,
+        "predicted_value": 364980000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2024-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05608299999693145,
+        "predicted_value": 23646000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2024-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04966699999897628,
+        "predicted_value": 99803000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2024-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.057166000004826856,
+        "predicted_value": 123216000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2024-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.061625000000731234,
+        "predicted_value": 391035000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2025-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.0543339999978798,
+        "predicted_value": 359241000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2025-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05529100000245535,
+        "predicted_value": 23646000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2025-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04879200000118544,
+        "predicted_value": 99803000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2025-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.056457999995984665,
+        "predicted_value": 133050000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "aapl-2025-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06145800000467716,
+        "predicted_value": 416161000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2022-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05454099999724349,
+        "predicted_value": 365264000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2022-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.056083000004036876,
+        "predicted_value": 21879000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2022-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.04941699999960747,
+        "predicted_value": 59972000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2022-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05733300000088093,
+        "predicted_value": 74842000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2022-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.07224999999522197,
+        "predicted_value": 282836000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2023-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.07562500000091177,
+        "predicted_value": 402392000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2023-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.057499999996935,
+        "predicted_value": 21879000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2023-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04987500000197542,
+        "predicted_value": 59972000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2023-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05674999999882857,
+        "predicted_value": 84293000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2023-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.061583000004361566,
+        "predicted_value": 307394000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2024-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05412499999835063,
+        "predicted_value": 450256000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2024-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05745899999709536,
+        "predicted_value": 21879000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2024-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04941699999960747,
+        "predicted_value": 59972000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2024-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05695899999835774,
+        "predicted_value": 112390000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2024-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06091600000246444,
+        "predicted_value": 350018000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2025-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.054332999994244346,
+        "predicted_value": 595281000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2025-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05541699999866978,
+        "predicted_value": 21879000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2025-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05229199999945422,
+        "predicted_value": 59972000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2025-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05637500000688078,
+        "predicted_value": 129039000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "googl-2025-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.061709000000576,
+        "predicted_value": 402836000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2022-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05454200000087894,
+        "predicted_value": 364840000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2022-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06141700000483752,
+        "predicted_value": 13931000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2022-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05008299999786914,
+        "predicted_value": 72738000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2022-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05616700000388164,
+        "predicted_value": 83383000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2022-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06066699999962566,
+        "predicted_value": 198270000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2023-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.054041000005611295,
+        "predicted_value": 411976000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2023-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.06199999999978445,
+        "predicted_value": 13931000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2023-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05070800000339659,
+        "predicted_value": 72738000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2023-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05541699999866978,
+        "predicted_value": 88523000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2023-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.059832999994569036,
+        "predicted_value": 211915000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2024-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.053749999999297415,
+        "predicted_value": 512163000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2024-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05395800000229656,
+        "predicted_value": 13931000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2024-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04933399999629273,
+        "predicted_value": 72738000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2024-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.055791999997722996,
+        "predicted_value": 109433000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2024-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06016600000435801,
+        "predicted_value": 245122000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2025-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.053749999999297415,
+        "predicted_value": 619003000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2025-cash",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.05387499999898182,
+        "predicted_value": 13931000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2025-net-income",
+        "success": false,
+        "answerability_correct": true,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04929099999628761,
+        "predicted_value": 72738000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2025-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.05520799999914061,
+        "predicted_value": 128528000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "msft-2025-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.06633400000310985,
+        "predicted_value": 281724000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "unanswerable-unknown-company",
+        "success": false,
+        "answerability_correct": false,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.053917000002456916,
+        "predicted_value": 391035000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "unanswerable-missing-year",
+        "success": false,
+        "answerability_correct": false,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04033299999406381,
+        "predicted_value": 394328000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "unanswerable-outside-window",
+        "success": false,
+        "answerability_correct": false,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.04970799999881592,
+        "predicted_value": 72738000000,
+        "reason": "single-pass top-1 retrieval"
+      },
+      {
+        "id": "unanswerable-unsupported-metric",
+        "success": false,
+        "answerability_correct": false,
+        "value_correct": false,
+        "citation_correct": false,
+        "latency_ms": 0.050874999999450665,
+        "predicted_value": 450256000000,
+        "reason": "single-pass top-1 retrieval"
+      }
+    ]
+  },
+  "agent": {
+    "name": "agentic_metadata_verified",
+    "cases": 64,
+    "task_success": 1,
+    "answerability_accuracy": 1,
+    "value_accuracy": 1,
+    "citation_accuracy": 1,
+    "p50_latency_ms": 0.42770799999658493,
+    "p95_latency_ms": 0.46366700000533,
+    "rows": [
+      {
+        "id": "aapl-2022-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 1.6153750000000855,
+        "predicted_value": 352755000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2022-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.5192919999998935,
+        "predicted_value": 23646000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2022-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4628330000002734,
+        "predicted_value": 99803000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2022-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4426249999980314,
+        "predicted_value": 119437000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2022-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.46366599999458913,
+        "predicted_value": 394328000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2023-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43129199999469847,
+        "predicted_value": 352583000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2023-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43833400000181655,
+        "predicted_value": 29965000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2023-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4325000000022783,
+        "predicted_value": 96995000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2023-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4350000000030718,
+        "predicted_value": 114301000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2023-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4378339999959735,
+        "predicted_value": 383285000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2024-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42491699999658294,
+        "predicted_value": 364980000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2024-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4303340000006983,
+        "predicted_value": 29943000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2024-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4169159999989347,
+        "predicted_value": 93736000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2024-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43775000000323416,
+        "predicted_value": 123216000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2024-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42558300000195004,
+        "predicted_value": 391035000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2025-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42612499999705733,
+        "predicted_value": 359241000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2025-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43216699999959474,
+        "predicted_value": 35934000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2025-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.41329200000461697,
+        "predicted_value": 112010000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2025-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4416669999969258,
+        "predicted_value": 133050000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "aapl-2025-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42183300000431245,
+        "predicted_value": 416161000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2022-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4312079999948537,
+        "predicted_value": 365264000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2022-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4258329999942134,
+        "predicted_value": 21879000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2022-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4212500000022601,
+        "predicted_value": 59972000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2022-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43279199999801676,
+        "predicted_value": 74842000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2022-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42449999999405463,
+        "predicted_value": 282836000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2023-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43204199999991033,
+        "predicted_value": 402392000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2023-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4332500000003847,
+        "predicted_value": 24048000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2023-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43104099999879963,
+        "predicted_value": 73795000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2023-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42316700000100127,
+        "predicted_value": 84293000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2023-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42274999999847296,
+        "predicted_value": 307394000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2024-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42975000000211594,
+        "predicted_value": 450256000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2024-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.41804100000319977,
+        "predicted_value": 23466000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2024-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4410419999985038,
+        "predicted_value": 100118000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2024-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4323750000025939,
+        "predicted_value": 112390000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2024-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4325410000021179,
+        "predicted_value": 350018000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2025-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4232909999970502,
+        "predicted_value": 595281000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2025-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42929099999611253,
+        "predicted_value": 30708000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2025-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4474580000035644,
+        "predicted_value": 132170000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2025-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43949999999881584,
+        "predicted_value": 129039000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "googl-2025-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.45462500000326145,
+        "predicted_value": 402836000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2022-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.434874999996282,
+        "predicted_value": 364840000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2022-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4216250000013133,
+        "predicted_value": 13931000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2022-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4178749999965703,
+        "predicted_value": 72738000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2022-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43587500000086266,
+        "predicted_value": 83383000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2022-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.43016700000464425,
+        "predicted_value": 198270000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2023-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.419499999999573,
+        "predicted_value": 411976000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2023-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4191250000005198,
+        "predicted_value": 34704000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2023-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42437500000147566,
+        "predicted_value": 72361000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2023-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42475000000052887,
+        "predicted_value": 88523000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2023-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4157500000019354,
+        "predicted_value": 211915000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2024-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4092089999971904,
+        "predicted_value": 512163000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2024-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.41475000000446016,
+        "predicted_value": 18315000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2024-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4129169999984583,
+        "predicted_value": 88136000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2024-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4219169999970518,
+        "predicted_value": 109433000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2024-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4150830000000383,
+        "predicted_value": 245122000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2025-assets",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.42249999999910415,
+        "predicted_value": 619003000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2025-cash",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4168339999992554,
+        "predicted_value": 30242000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2025-net-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4146660000046154,
+        "predicted_value": 101832000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2025-operating-income",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.46366700000533,
+        "predicted_value": 128528000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "msft-2025-revenue",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.420124999997995,
+        "predicted_value": 281724000000,
+        "reason": "exact metadata match verified against frozen SEC provenance"
+      },
+      {
+        "id": "unanswerable-unknown-company",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.41183400000477377,
+        "predicted_value": null,
+        "reason": "missing or ambiguous company, metric, fiscal year, or SEC fact"
+      },
+      {
+        "id": "unanswerable-missing-year",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.3932919999982687,
+        "predicted_value": null,
+        "reason": "missing or ambiguous company, metric, fiscal year, or SEC fact"
+      },
+      {
+        "id": "unanswerable-outside-window",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4752079999974512,
+        "predicted_value": null,
+        "reason": "missing or ambiguous company, metric, fiscal year, or SEC fact"
+      },
+      {
+        "id": "unanswerable-unsupported-metric",
+        "success": true,
+        "answerability_correct": true,
+        "value_correct": true,
+        "citation_correct": true,
+        "latency_ms": 0.4097500000028731,
+        "predicted_value": null,
+        "reason": "missing or ambiguous company, metric, fiscal year, or SEC fact"
+      }
+    ]
+  }
+}

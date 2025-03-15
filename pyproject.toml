@@ -7,10 +7,15 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Ingyu Koh", email = "ingyukoh2@gmail.com" }]
 
-dependencies = []
+dependencies = [
+  "fastapi>=0.115,<1",
+  "langgraph>=0.2,<1",
+  "pydantic>=2.9,<3",
+  "uvicorn[standard]>=0.30,<1",
+]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "ruff>=0.6"]
+dev = ["httpx>=0.27,<1", "pytest>=8.0", "ruff>=0.6"]
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -31,3 +36,6 @@ select = ["E", "F", "I", "UP", "B", "TRY"]
 # TRY003: actionable, multi-line failure messages are deliberate here — a drifted
 # eval-set hash must tell the reader what happened and what to do about it.
 ignore = ["TRY003"]
+
+[project.scripts]
+agentic-rag-eval = "agentic_rag_eval.cli:main"

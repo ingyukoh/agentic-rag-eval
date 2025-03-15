@@ -29,3 +29,6 @@ jobs:
 
       - name: Test
         run: pytest -q
+
+      - name: Reproduce benchmark
+        run: python -m agentic_rag_eval.bench
