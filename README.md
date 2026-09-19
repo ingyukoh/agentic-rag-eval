@@ -36,16 +36,16 @@ the important values live in tables rather than prose, and the same label ("net 
 
 ```mermaid
 flowchart TD
-    Q["Question"] --> P["Plan<br/><i>decompose into sub-questions</i>"]
-    P --> R["Hybrid retrieve<br/><i>BM25 + dense, reciprocal rank fusion</i>"]
-    R --> G{"Grade evidence<br/><i>does this span actually<br/>contain the value?</i>"}
-    G -- insufficient --> RF["Refine query<br/><i>max 3 attempts</i>"]
+    Q["Question"] --> P["Plan<br/>decompose into sub-questions"]
+    P --> R["Hybrid retrieve<br/>BM25 + dense, reciprocal rank fusion"]
+    R --> G{"Grade evidence<br/>does this span actually<br/>contain the value?"}
+    G -- insufficient --> RF["Refine query<br/>max 3 attempts"]
     RF --> R
-    G -- sufficient --> S["Synthesize answer<br/><i>with span citations</i>"]
-    S --> V{"Verify<br/><i>does the cited number<br/>match the source text?</i>"}
+    G -- sufficient --> S["Synthesize answer<br/>with span citations"]
+    S --> V{"Verify<br/>does the cited number<br/>match the source text?"}
     V -- mismatch --> RF
     V -- match --> A["Answer + citations + trace"]
-    G -- budget exhausted --> AB["Abstain<br/><i>'not found in corpus'</i>"]
+    G -- budget exhausted --> AB["Abstain<br/>'not found in corpus'"]
     V -- budget exhausted --> AB
 
     classDef gate fill:#fff4e6,stroke:#d97706,color:#7c2d12
