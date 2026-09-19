@@ -1,0 +1,33 @@
+[project]
+name = "agentic-rag-eval"
+version = "0.1.0.dev0"
+description = "Agentic RAG over SEC 10-K filings, benchmarked against a non-agentic baseline."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Ingyu Koh", email = "ingyukoh2@gmail.com" }]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "TRY"]
+# TRY003: actionable, multi-line failure messages are deliberate here — a drifted
+# eval-set hash must tell the reader what happened and what to do about it.
+ignore = ["TRY003"]

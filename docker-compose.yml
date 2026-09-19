@@ -1,0 +1,12 @@
+services:
+  bench:
+    build: .
+    # Replay mode by default: no API key, no network, deterministic output.
+    network_mode: none
+    volumes:
+      - ./results:/app/results
+
+  test:
+    build: .
+    entrypoint: ["python", "-m", "pytest", "-q"]
+    network_mode: none

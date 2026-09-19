@@ -1,0 +1,18 @@
+[
+  {
+    "id": "EXAMPLE-001",
+    "question": "Illustrative only — shows the record shape. Real items are extracted in Phase 1 with verified ground truth read from the filing itself.",
+    "answer": "<exact value as it appears in the filing>",
+    "unit": "USD millions",
+    "source_doc": "<EDGAR accession number>",
+    "source_span": "<verbatim text containing the value>"
+  },
+  {
+    "id": "EXAMPLE-002",
+    "question": "An unanswerable question: the value is genuinely absent from the corpus. The correct behavior is abstention, not a guess.",
+    "answer": null,
+    "unit": null,
+    "source_doc": null,
+    "source_span": null
+  }
+]
