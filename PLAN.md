@@ -15,7 +15,7 @@ reproduce the claim?
 - [x] LangGraph plan → retrieve → grade → verify workflow
 - [x] Exact value, citation, answerability, and latency metrics
 - [x] Generated per-case JSON and full failure report
-- [x] FastAPI contract, Docker execution, tests, and GitHub Actions
+- [x] FastAPI contract, Docker execution, and tests
 - [x] Honest ownership and limitation statements on the first screen
 
 ## Deliberately deferred

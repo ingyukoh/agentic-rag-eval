@@ -2,7 +2,6 @@
 
 **A retrieval system that answers numeric questions from real 10-K filings, measured against three controls — including one built to prove the benchmark itself is honest.**
 
-[![CI](https://github.com/ingyukoh/agentic-rag-eval/actions/workflows/ci.yml/badge.svg)](https://github.com/ingyukoh/agentic-rag-eval/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
 
@@ -44,7 +43,7 @@ scores **6.2%**, because a citation now only counts when the cited chunk really 
 reported figure. It never opens a filing, so it can never ground one.
 
 [`tests/test_discriminative.py`](tests/test_discriminative.py) asserts these properties of the
-*measurement* on every CI run: no system may saturate the benchmark, the naive, baseline and
+*measurement* in the local test suite: no system may saturate the benchmark, the naive, baseline and
 agentic paths must land on distinct scores, and a ground-truth lookup must not pass as
 grounded retrieval.
 
@@ -122,7 +121,7 @@ policy): `python scripts/fetch_filings.py`.
 **Mine:** the document ingestion and chunking, the BM25 implementation, the extraction and
 column-disambiguation logic, the corroboration verifier, the abstention policy, the agentic
 control flow, the evaluation harness and its failure taxonomy, the discriminative-power probe
-that invalidated the previous benchmark, the frozen-evidence integrity gate, the container and CI.
+that invalidated the previous benchmark, the frozen-evidence integrity gate, the container and tests.
 
 **Not mine:** the filings (public-domain SEC records), the XBRL facts API, LangGraph, and the
 Python standard library.
