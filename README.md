@@ -5,6 +5,12 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
 
+**Project history:** The original work behind this project dates to March 15, 2025.
+The original local Git history was lost in a hard-disk crash. I reconstructed this
+public repository from memory in September 2026. Its Git dates record that
+reconstruction, not the date of the original work. The current benchmark, including the
+FY2025 filings, was assembled during the reconstruction.
+
 Corpus: **12 real 10-K filings** (Apple, Microsoft, Alphabet, FY2022–FY2025) pulled from
 SEC EDGAR and pinned by accession number — **3,872 chunks, ~3.9M characters**. Ground truth
 comes from SEC's own XBRL company facts, so the answers are derived, not hand-written.
